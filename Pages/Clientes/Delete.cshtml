@@ -5,6 +5,7 @@
     try
     {
         string id = Request.Query["id"];
+
         string connectionString = "Data Source=DESKTOP-NI97JQO\\SQLRODRIGO;Initial Catalog=mystore;Integrated Security=True";
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
